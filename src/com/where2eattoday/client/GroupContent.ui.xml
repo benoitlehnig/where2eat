@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:b="urn:import:com.github.gwtbootstrap.client.ui"
+	xmlns:bb="urn:import:com.github.gwtbootstrap.client.ui.base">
+	
+	<g:HTMLPanel  addStyleNames="circle">
+		<b:Heading size="2" ui:field="restaurantName" addStyleNames="restaurantName"></b:Heading>
+		<b:Heading size="2" ui:field="dishName" addStyleNames="dishName"></b:Heading>
+		<g:HTMLPanel ui:field="circle" addStyleNames="circle2">
+		    </g:HTMLPanel>
+	</g:HTMLPanel>
+	
+</ui:UiBinder> 

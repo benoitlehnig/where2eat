@@ -1,0 +1,13 @@
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:b="urn:import:com.github.gwtbootstrap.client.ui"
+	xmlns:bb="urn:import:com.github.gwtbootstrap.client.ui.base">
+	
+	<b:Row>
+	    <b:Column size="4">
+			<b:Image ui:field="picture" width="32px" addStyleNames="loginInfoPict"/>
+			<b:Dropdown ui:field="login">
+				<b:NavLink ui:field="remove" >Remove from this group</b:NavLink>
+ 			</b:Dropdown>
+ 		</b:Column>	
+	</b:Row>
+</ui:UiBinder> 
